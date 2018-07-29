@@ -1,0 +1,22 @@
+{
+  "name": "react-zoom-override-hoc",
+  "version": "0.0.1",
+  "description": "A simple and clean cross-browser React HOC that provides zoomable interface when a component has focus in the browser. Allows overriding of zoom control to augment your own component using convenient listeners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "zoom",
+    "interface",
+    "hoc",
+    "listener"
+  ],
+  "author": "Robert Concepcion III",
+  "license": "ISC",
+  "depensdencies": {
+    "mouse-wheel": "^1.2.0",
+    "react": "^16.4.1"
+  }
+}
