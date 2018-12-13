@@ -60,6 +60,6 @@ component App extends React.Component {
 
 This is currently W.I.P. for supporting a new project on my own time. It is placed bere to dogfood it directly from NPM.
 
-Functionality will definitely be expanded upon and better documentation added throughout August as I revisit. Things are currently being tested in Chrome and Firefox on Windows 10. If you are using this or even not satisfied with it, please be amazing and submit any issues/feedback.
+Functionality will definitely be expanded upon and better documentation added as I revisit. Things are currently being tested in Chrome and Firefox on Windows 10. If you are using this or even not satisfied with it, please be great and submit any issues/feedback.
 
 Also (with the guidance of common sense/consideration), feel free to PR if you would like to contribute. Contributions always welcome 🙃
