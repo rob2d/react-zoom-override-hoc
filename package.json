@@ -1,22 +1,42 @@
 {
   "name": "react-zoom-override-hoc",
-  "version": "0.0.1",
   "description": "A simple and clean cross-browser React HOC that provides zoomable interface when a component has focus in the browser. Allows overriding of zoom control to augment your own component using convenient listeners.",
-  "main": "index.js",
+  "version": "0.0.3",
+  "main": "dist/withZoomOverride.min.js",
   "scripts": {
+    "build": "rollup -c -o dist/withZoomOverride.min.js",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rob2d/react-formication.git"
   },
   "keywords": [
     "react",
     "zoom",
-    "interface",
     "hoc",
+    "interface",
     "listener"
   ],
   "author": "Robert Concepcion III",
   "license": "ISC",
-  "depensdencies": {
+  "bugs": {
+    "url": "https://github.com/rob2d/react-formication/issues"
+  },
+  "homepage": "https://github.com/rob2d/react-formication#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
     "mouse-wheel": "^1.2.0",
-    "react": "^16.4.1"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-uglify": "^6.0.0"
   }
 }
